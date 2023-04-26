@@ -8,3 +8,6 @@ pip3 install opencv-python
 
 # Install pyautogui
 pip3 install pyautogui
+
+read -p "Press Enter to exit"
+exit
