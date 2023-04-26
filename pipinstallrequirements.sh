@@ -1,13 +1,10 @@
 #!/bin/bash
 
-# Install numpy
-pip3 install numpy
+# Install packages from requirements.txt
+pip3 install -r requirements.txt
 
-# Install opencv-python
-pip3 install opencv-python
-
-# Install pyautogui
-pip3 install pyautogui
-
+# Wait for user input
 read -p "Press Enter to exit"
+
+# Exit the script
 exit
